@@ -1,0 +1,56 @@
+body{
+	font-family: sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url(img/simponsbersih.jpg);
+	background-size: cover;
+    background-position: center;
+}
+ 
+.container{
+    width: 350px;
+    background: transparent;
+    /*meletakkan form ke tengah*/
+    margin: 20px auto;
+    padding: 30px 20px;
+}
+
+.tulisan-tambah{
+	text-align: center;
+    margin: 0px 0px 40px;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+    font-size: 18pt;
+    color:white;
+}
+
+.box-form{
+	font-size: large;
+    color:white;
+}
+ 
+.form-data{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol-tambah{
+	background: #4bdf50;
+	color: white;
+	font-size: 18pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.tombol-tambah:hover {
+    background-color: rgb(10, 96, 23);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+} 
